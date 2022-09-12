@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>learnToCode Academy</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+    <h1 id="title">learnToCode Academy</h1>
+    <p id="description">Complete the following form to receive information about our courses</p>
+  </header>
+  <main>
+      <form id="survey-form">
+          <fielset>
+              <label id="name-label">Name <input id="name" type"text" placeholder="Enter your name" required></label>
+          	  <label id="email-label">Email <input id="email" type="email"placeholder="Enter your email" required></label>
+              <label id="number-label">Age <input id="number" type="number" placeholder="Age" min="16" max="99" required></label>
+              <label>Which option best describes your current role?
+              <select id="dropdown">
+                  <option value="">Select current role</option>
+                  <option value="1">Student</option>
+                  <option value="2">Full Time Job</option>
+                  <option value="3">Part Time Job</option>
+                  <option value="4">Other</option>            
+             </select>
+      	  </fieldset>
+          <fieldset>
+             <label>What area would you like to specialize in?</label>
+             <label><input type="radio" name="select-option" class="inline" value="Full-stack"> Full Stack</label>
+             <label><input type="radio" name="select-option" class="inline" value="Front-end"> Front End</label>
+             <label><input type="radio" name="select-option" class="inline" value="Back-end"> Back End</label>
+             <label>How did you hear about us?
+             <select id="dropdown">
+                 <option value="">Select one</option>
+                 <option value="1">Twitter</option>
+                 <option value="2">Facebook</option>
+                 <option value="3">LinkedIn</option>
+                 <option value="4">A current student</option>            
+             </select>
+             </label>
+             <label>Do you know some programming lenguage? (Choose all the options that apply)</label>
+             <label><input type="checkbox" class="inline" value="html-css"> HTML-CSS</label>
+             <label><input type="checkbox" class="inline" value="JavaScript">JavaScript</label>
+             <label><input type="checkbox" class="inline" value="python">Python</label>
+             <label><input type="checkbox" class="inline" value="java">Java</label>
+             <label><input type="checkbox" class="inline" value="c#">C#</label>
+             <label><input type="checkbox" class="inline" value="php">PHP</label>
+             <label><input type="checkbox" class="inline" value="others">Others</label>
+             <label><input type="checkbox" class="inline" value="begginer">I'm begginer</label>
+             <labe>Tell us why you want to study at learnToCode Academy:
+             <textarea name="comments" rows="3" cols="30" Placeholder="I want to study at learnToCode because..."></textarea>
+             </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+ </form>
+</main>
+<footer>
+	<p>&#169 2022 Maira Cayano / Proyecto freeCodeCamp - Responsive Web Design</p>
+	<nav>
+		<a href="https://www.linkedin.com/in/maira-cayano/" target="_blank"><img id="icono-In" src="./images/linkedin.png" alt=""></a>
+		<a href="https://github.com/maiCay" target="_blank"><img id="icono-Gh" src="./images/pngwing.com.png" alt=""></a>
+
+	</nav>
+
+</footer>
+  </body>
+</html>
